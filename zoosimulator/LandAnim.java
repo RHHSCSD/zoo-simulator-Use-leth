@@ -6,7 +6,7 @@ package zoosimulator;
 
 /**
  *
- * @author chixi
+ * @author Billy Lu
  */
 public class LandAnim extends Animal {
 
