@@ -7,7 +7,7 @@ package zoosimulator;
 /**
  * A Zoo Simulator
  *
- * @author chixi
+ * @author Billy Lu
  */
 public class ZooSimulator {
 
