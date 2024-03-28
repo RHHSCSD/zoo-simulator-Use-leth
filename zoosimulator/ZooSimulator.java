@@ -14,7 +14,8 @@ public class ZooSimulator {
     /**
      * @param args the command line arguments
      */
-    public static Animal[] animals = new Animal[100];
+    public static Animal[] animals = new Animal[10];
+    public static ArrayList<Animal> animals = new ArrayList<Animal>();
 
     public static void main(String[] args) {
         // TODO code application logic here
@@ -23,13 +24,13 @@ public class ZooSimulator {
         for (int i = 0; i < 10; i++) {
             long a = Math.round(Math.random() * 2);
             if (a == 0) {
-                animals[i] = new LandAnim(10, "landAnim", "male", 5, 5, 5, image1, "landspecies", "moooo");
+                animals.add(new LandAnim(10, "landAnim", "male", 5, 5, 5, image1, "landspecies", "moooo"));
             }
             if (a == 1) {
-                animals[i] = new BirdAnim(10, "BirdAnim", "male", 5, 5, 5, image1, "landspecies", "birrrrr");
+                animals.add( new BirdAnim(10, "BirdAnim", "male", 5, 5, 5, image1, "landspecies", "birrrrr"));
             }
             if (a == 2) {
-                animals[i] = new WaterAnim(10, "WaterAnim", "male", 5, 5, 5, image1, "landspecies", "gulugulu");
+                animals.add(new WaterAnim(10, "WaterAnim", "male", 5, 5, 5, image1, "landspecies", "gulugulu"));
             }
         }
         for (int i = 0; i < 10; i++) {
