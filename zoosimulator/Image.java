@@ -6,7 +6,7 @@ package zoosimulator;
 
 /**
  *
- * @author chixi
+ * @author Biily Lu
  */
 public class Image {
 
