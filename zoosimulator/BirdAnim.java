@@ -6,7 +6,7 @@ package zoosimulator;
 
 /**
  *
- * @author chixi
+ * @author Billy Lu
  */
 public class BirdAnim extends Animal implements IFlyable {
 
